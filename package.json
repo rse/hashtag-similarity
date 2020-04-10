@@ -1,0 +1,54 @@
+{
+    "name":        "hashtag-similarity",
+    "version":     "0.9.0",
+    "description": "Similarity Clustering of HashTags",
+    "keywords":    [ "hash", "tag", "cluster" ],
+    "main":        "lib/hashtag-similarity.node.js",
+    "browser":     "lib/hashtag-similarity.browser.js",
+    "repository": {
+        "type": "git",
+        "url":  "https://github.com/rse/hashtag-similarity.git"
+    },
+    "author": {
+        "name":  "Dr. Ralf S. Engelschall",
+        "email": "rse@engelschall.com",
+        "url":   "http://engelschall.com"
+    },
+    "license":  "MIT",
+    "homepage": "https://github.com/rse/hashtag-similarity",
+    "bugs":     "https://github.com/rse/hashtag-similarity/issues",
+    "dependencies": {
+    },
+    "devDependencies": {
+        "grunt":                           "1.1.0",
+        "grunt-cli":                       "1.3.2",
+        "grunt-contrib-clean":             "2.0.0",
+        "grunt-browserify":                "5.3.0",
+        "grunt-mocha-test":                "0.13.3",
+        "grunt-eslint":                    "22.0.0",
+        "babel-eslint":                    "10.1.0",
+        "eslint":                          "6.8.0",
+        "eslint-config-standard":          "14.1.1",
+        "eslint-plugin-standard":          "4.0.1",
+        "eslint-plugin-promise":           "4.2.1",
+        "eslint-plugin-import":            "2.20.2",
+        "eslint-plugin-node":              "11.1.0",
+        "mocha":                           "7.1.1",
+        "chai":                            "4.2.0",
+        "browserify":                      "16.5.1",
+        "babelify":                        "10.0.0",
+        "@babel/core":                     "7.9.0",
+        "@babel/plugin-transform-runtime": "7.9.0",
+        "@babel/preset-env":               "7.9.5",
+        "uglifyify":                       "5.0.2",
+        "browserify-header":               "1.0.1",
+        "browserify-derequire":            "1.0.1",
+        "snowball-stemmers":               "0.6.0",
+        "double-metaphone":                "1.0.5",
+        "dice-coefficient":                "1.0.5"
+    },
+    "scripts": {
+        "prepublishOnly":  "grunt default",
+        "build":           "grunt default"
+    }
+}
