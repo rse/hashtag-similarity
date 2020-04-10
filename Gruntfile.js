@@ -95,7 +95,7 @@ module.exports = function (grunt) {
                     external: [
                     ],
                     browserifyOptions: {
-                        standalone: "Syntax",
+                        standalone: "hashTagSimilarity",
                         debug: false
                     }
                 }
