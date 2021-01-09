@@ -28,7 +28,7 @@
 /* global require: false */
 /* jshint -W030: false */
 
-var similarity = require("../lib/hashtag-similarity.node.js")
+const similarity = require("../lib/hashtag-similarity.node.js")
 
 describe("HashTag-Similarity Library", function () {
     it("should expose its official API", function () {
