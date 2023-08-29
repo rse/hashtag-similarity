@@ -7,7 +7,7 @@
     "browser":     "lib/hashtag-similarity.browser.js",
     "repository": {
         "type": "git",
-        "url":  "https://github.com/rse/hashtag-similarity.git"
+        "url":  "git+https://github.com/rse/hashtag-similarity.git"
     },
     "author": {
         "name":  "Dr. Ralf S. Engelschall",
