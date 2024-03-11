@@ -1,6 +1,6 @@
 {
     "name":        "hashtag-similarity",
-    "version":     "0.9.4",
+    "version":     "0.9.5",
     "description": "Similarity Clustering of HashTags",
     "keywords":    [ "hash", "tag", "cluster" ],
     "main":        "lib/hashtag-similarity.node.js",
